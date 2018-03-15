@@ -10516,6 +10516,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1001 &2138448049
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4660421303894056, guid: 07149d9f2c845420db63c9be7395c8ce, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 100.94921
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660421303894056, guid: 07149d9f2c845420db63c9be7395c8ce, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 89.06385
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660421303894056, guid: 07149d9f2c845420db63c9be7395c8ce, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.7441936
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660421303894056, guid: 07149d9f2c845420db63c9be7395c8ce, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660421303894056, guid: 07149d9f2c845420db63c9be7395c8ce, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660421303894056, guid: 07149d9f2c845420db63c9be7395c8ce, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660421303894056, guid: 07149d9f2c845420db63c9be7395c8ce, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4660421303894056, guid: 07149d9f2c845420db63c9be7395c8ce, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1217419242060648, guid: 07149d9f2c845420db63c9be7395c8ce, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 07149d9f2c845420db63c9be7395c8ce, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &2145436815
 GameObject:
   m_ObjectHideFlags: 0
