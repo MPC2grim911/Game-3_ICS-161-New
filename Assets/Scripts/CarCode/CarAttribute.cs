@@ -37,6 +37,20 @@ public class CarAttribute : MonoBehaviour {
 		if (this.GetComponent<Grid> () != null) {
 			is_AI = true;
 		}
+		int car_type = PlayerPrefs.GetInt ("Car");
+		if(car_type == 1){
+			//Balanced
+			speedMultiplier = 1;
+			damageResistence = 1;
+		} else if (car_type == 2){
+			//Speedy
+			speedMultiplier = 1.25f;
+			damageResistence = 0.75f;
+		} else if (car_type == 3){
+			//Armored
+			speedMultiplier = 0.90f;
+			damageResistence = 1.15f;
+		}
 	}
 	
 	// Update is called once per frame
@@ -77,5 +91,8 @@ public class CarAttribute : MonoBehaviour {
 	}
 	public float getDamageReduction (){
 		return this.damageResistence;
+	}
+	public float getSpeedMulti (){
+		return speedMultiplier;
 	}
 }

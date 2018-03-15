@@ -13,6 +13,7 @@ public class InGameUI : MonoBehaviour {
 
 	public GameObject Track1;
 	public GameObject Track2;
+	public GameObject Track3;
 	public GameObject Car1;
 	public GameObject Car2;
 	public GameObject Car3;
@@ -43,10 +44,18 @@ public class InGameUI : MonoBehaviour {
 		{
 			Track1.gameObject.SetActive(true);
 			Track2.gameObject.SetActive(false);
+			Track3.gameObject.SetActive(false);
 		}
 		else if(track == 2)
 		{
 			Track2.gameObject.SetActive(true);
+			Track1.gameObject.SetActive(false);
+			Track3.gameObject.SetActive(false);
+		}
+		else if(track == 3)
+		{
+			Track3.gameObject.SetActive(true);
+			Track2.gameObject.SetActive(false);
 			Track1.gameObject.SetActive(false);
 		}
 

@@ -8,7 +8,7 @@ public class CarController : MonoBehaviour {
 	//This class controls a car's movement
 
 	[SerializeField]
-	private float speedForce = 2f; //How fast the car moves
+	private float speedForce = 1.5f; //How fast the car moves
 	[SerializeField]
 	private float torqueForce = -150f; //How fast the car turns (- sign because turning is inverted)
 	[SerializeField]
@@ -32,6 +32,7 @@ public class CarController : MonoBehaviour {
 
 
 		Rigidbody2D rb = GetComponent<Rigidbody2D>();
+		CarAttribute ca = GetComponent<CarAttribute>();
 
 		float driftFactor = driftFactorSticky;
 		if(RightVelocity().magnitude > maxStickyVelocity) {
@@ -41,11 +42,11 @@ public class CarController : MonoBehaviour {
 		rb.velocity = ForwardVelocity() + RightVelocity()*driftFactor;
 
 		if(Input.GetButton("Accelerate")) {
-			rb.AddForce( transform.up * speedForce );
+			rb.AddForce( transform.up * speedForce * ca.getSpeedMulti());
 
 		}
 		if(Input.GetButton("Brakes")) {
-			rb.AddForce( transform.up * -speedForce/2f );
+			rb.AddForce( transform.up * -speedForce/2f * ca.getSpeedMulti());
 
 		}
 
