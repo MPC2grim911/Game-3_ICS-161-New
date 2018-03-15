@@ -409,7 +409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &47200551
 RectTransform:
   m_ObjectHideFlags: 0
@@ -905,7 +905,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &246665899
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1647,7 +1647,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Music:\n\nBlue Stahli-Shotgun Senorita\n\nDreamtale-Intro The Dawn\n\n\u5C0F\u6FA4\u6B63\u6F84-\u30A2\u30C8\u30E9\u30AF\u30B7\u30E7\u30F3"
+  m_Text: "Music:\n\nBlue Stahli-Shotgun Senorita\n\nDreamtale-Intro The Dawn\n\n\u5C0F\u6FA4\u6B63\u6F84-\u30A2\u30C8\u30E9\u30AF\u30B7\u30E7\u30F3\n\nStockwaves
+    - Racing!"
 --- !u!222 &720603738
 CanvasRenderer:
   m_ObjectHideFlags: 0

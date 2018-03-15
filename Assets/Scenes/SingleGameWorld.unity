@@ -407,12 +407,12 @@ Prefab:
     - target: {fileID: 114991767641203580, guid: 3e44bc82916b84795900e3055d9d47a0,
         type: 2}
       propertyPath: Torque
-      value: 0.005
+      value: 0.0025
       objectReference: {fileID: 0}
     - target: {fileID: 114991767641203580, guid: 3e44bc82916b84795900e3055d9d47a0,
         type: 2}
       propertyPath: ObjectiveAsSpeed
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114305268283448160, guid: 3e44bc82916b84795900e3055d9d47a0,
         type: 2}
@@ -35697,8 +35697,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9bc7af8ee6344756b63636129f82b57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: {fileID: 0}
-  UI: {fileID: 0}
+  timer: {fileID: 1715925398}
+  UI: {fileID: 988056950}
 --- !u!58 &1660248686
 CircleCollider2D:
   m_ObjectHideFlags: 0
